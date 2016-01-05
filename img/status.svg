@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="588px" height="199px" viewBox="0 0 588 199" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>Hold down a bit, + Rectangle 270</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Hold-down-a-bit,-+-Rectangle-270" sketch:type="MSLayerGroup" transform="translate(0.000000, -4.000000)">
+            <rect id="Rectangle-270" fill="#2D2F58" sketch:type="MSShapeGroup" x="0" y="4" width="588" height="199"></rect>
+            <text id="Hold-down-a-bit," sketch:type="MSTextLayer" font-family="Libre Baskerville" font-size="72" font-style="italic" font-weight="normal" sketch:alignment="middle" line-spacing="94.1999969" letter-spacing="-1.82278478" fill="#FF7270">
+                <tspan x="32.4782783" y="70">Hold down a bit,</tspan>
+                <tspan x="116.013316" y="164.199997">I’m loading</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

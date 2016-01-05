@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d3961020-e0df-45b8-896a-963aa7302357" name="ftp.felixhornoiu.com" url="http://ftp.felixhornoiu.com">
+        <fileTransfer host="ftp.felixhornoiu.com" port="21" password="dffadfcfdfd9dfdedfcfdfcbdfc6dfcbdf99df92df9c" username="folio@felixhornoiu.com">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
