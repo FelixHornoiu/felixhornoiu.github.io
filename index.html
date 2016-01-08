@@ -17,8 +17,6 @@
 
 	<script src="js/modernizr.js"></script>
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <script type="text/javascript" src="http://www.skypeassets.com/i/scom/js/skype-uri.js"></script>
-
 
 
 
@@ -51,24 +49,57 @@
 
 
 <div id="box_menu">
-  <div class="container parallax  logo">
-    <div class="back" id="circle">
-      <div id="menu-icon">
-        <i class="fa fa-phone fa-2x" ></i>
-      </div>
+  <div class="container parallax  logo" data-tooltip="CONTACT" data-placement="right" id="play-button" >
+
+      <a href="#" data-tooltip=" CONTACT " data-placement="right">
+    <div class="back" id="circle" >
+      <div id="menu-icon" >
+        <i class="fa fa-phone fa-2x" ></i></div>
     </div>
 
 
 
     <div id="menu">
+
+
+        <div class="drake center">
+            <iframe width="853" height="480" id="video" src="https://www.youtube.com/embed/uxpDa-c-4Mc?enablejsapi=1" frameborder="0" allowfullscreen></iframe>
+            <div class="center" style="
+    position: relative;
+    margin: 0px auto;
+    left: 25%;
+">
+                <div id="stop"> <a href="skype:felixhornoiu?call" class="btn blue" id="">Skype Me</a></div>
+                <div id="stop"> <a href="mailto:felixhornoiu@gmail.com" class="btn" style="
+    color: darkcyan;
+    background-color: aquamarine;
+    box-shadow: 0px 5px 0px 0px #6ACCAB;
+">+44 7490 331 366</a></div> <li><a href="tel:+447490331366" target="_self"><i class="fa  fa-envelope fa-2x"></i>Mail Me</a></li>
+            </div>
+        </div>
+
        <ul>
-         <li id="back"><i class="fa fa-times fa-2x"></i>Close</li>
-         <li><a href="tel:+447490331366" target="_self"><i class="fa fa-phone fa-2x"></i>+44 7490 331 366</a></li>
-         <li><div id="SkypeButton_Call_felixhornoiu_1" class="skype" ></div></li>
-         <li><a href="mailto:felixhornoiu@gmail.com" target="_blank"><i class="fa  fa-envelope fa-2x"></i>Mail Me</a></li>
+         <li id="back"><i class="fa fa-times fa-2x"></i></li>
+
       </ul>
+
+        <div class="buttons">
+  <!-- if we needed to change height/width we could use viewBox here -->
+  <svg class="button" id="play-button">
+    <use xlink:href="#play-button-shape">
+  </svg>
+  <div class="button" id="stop">
+    <a href="skype:felixhornoiu?call" class="btn blue" id="stop">Skype Me</a>
+  </div>
+</div>
+
+
+
+
     </div>
 </div>
+
+
 
 <!-- IMGS -->
 
@@ -228,15 +259,7 @@
 </script>
 
 
-     <script type="text/javascript">
- Skype.ui({
- "name": "call",
- "element": "SkypeButton_Call_felixhornoiu_1",
- "participants": ["felixhornoiu"],
- "imageColor": "white",
- "imageSize": 32
- });
- </script>
+
 
 </body>
 </html>

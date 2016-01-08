@@ -240,6 +240,7 @@ h1 {
   top: 5em;
   right: -800px;
   margin-right: 18.5rem;
+    font-family: 'Andes','Verdana', sans-serif;
 }
 
 
@@ -915,6 +916,25 @@ header {
 .click {
   -webkit-animation: activate 0.3s linear forwards;
   animation: activate 0.3s linear forwards;
+
+}
+
+div#circle.click {
+        height: 300px;
+    width: 300px;
+    margin-top: -250px;
+
+}
+
+a #circle {
+  width: 60px;
+    height: 60px;
+
+}
+
+a .back {
+    width: 60px;
+    height: 60px;
 }
 
 @-webkit-keyframes activate {
@@ -1023,3 +1043,94 @@ a .fa-phone{
 a .fa-envelope {
     color: #FFFFFF;
 }
+
+
+a[data-tooltip] {
+  position: relative;
+
+}
+a[data-tooltip]::before,
+a[data-tooltip]::after {
+  position: absolute;
+  display: none;
+  opacity: 0.85;
+    left:50px;
+    transition-delay:1s;
+}
+a[data-tooltip]::before {
+  /*
+   * using data-tooltip instead of title so we
+   * don't have the real tooltip overlapping
+   */
+  content: attr(data-tooltip);
+  background: #656565;
+  color: #fff;
+  font-size: 13px;
+  padding: 8px;
+  border-radius: 5px;
+  /* we don't want the text to wrap */
+  white-space: nowrap;
+  text-decoration: none;
+    left:500px;
+    transition-delay:1s;
+
+}
+a[data-tooltip]::after {
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  content: '';
+    transition-delay:1s;
+}
+
+a[data-tooltip]:hover::before,
+a[data-tooltip]:hover::after {
+  display: block;
+    transition-delay:1s;
+}
+
+/** positioning **/
+
+
+
+/* right tooltip */
+a[data-tooltip][data-placement="right"]::before {
+      top: -3%;
+    left: 111%;
+    margin-left: 68px;
+    margin-top: 12px;
+    transition-delay:1s;
+}
+a[data-tooltip][data-placement="right"]::after {
+     border-right-color: #656565;
+    border-left: none;
+    top: 50%;
+    left: 100%;
+    margin-top: -36px;
+    margin-left: 63px;
+    transition-delay:1s;
+}
+
+.drake{
+        position: absolute;
+
+  margin-left: -100px;
+}
+
+.center {
+    margin: 0 auto;
+    left: 125%;
+
+}
+ #buttons{
+
+     display: inline-block;
+ }
+
+
+ /*djsfjsbfnjsdfsk*/
+
+#pause-button{
+    cursor: pointer;
+}
+
