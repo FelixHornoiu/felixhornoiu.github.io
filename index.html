@@ -17,6 +17,7 @@
 
 	<script src="js/modernizr.js"></script>
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <script type="text/javascript" src="http://www.skypeassets.com/i/scom/js/skype-uri.js"></script>
 
 
 
@@ -51,11 +52,9 @@
 
 <div id="box_menu">
   <div class="container parallax  logo">
-    <div id="circle">
+    <div class="back" id="circle">
       <div id="menu-icon">
-        <div class="bar" id="bar-one"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
+        <i class="fa fa-phone fa-2x" ></i>
       </div>
     </div>
 
@@ -64,9 +63,9 @@
     <div id="menu">
        <ul>
          <li id="back"><i class="fa fa-times fa-2x"></i>Close</li>
-         <li><a href="https://twitter.com/felixhornoiu" target="_blank"><i class="fa fa-twitter fa-2x"></i>Twitter</a></li>
-         <li><a href="https://dribbble.com/sneakycharlie" target="_blank"><i class="fa  fa-dribbble fa-2x"></i>Dribbble</a></li>
-         <li><a href="mailto:felixhornoiu@gmail.com" target="_blank"><i class="fa  fa-envelope fa-2x"></i>Contact me</a></li>
+         <li><a href="tel:+447490331366" target="_self"><i class="fa fa-phone fa-2x"></i>+44 7490 331 366</a></li>
+         <li><div id="SkypeButton_Call_felixhornoiu_1" class="skype" ></div></li>
+         <li><a href="mailto:felixhornoiu@gmail.com" target="_blank"><i class="fa  fa-envelope fa-2x"></i>Mail Me</a></li>
       </ul>
     </div>
 </div>
@@ -206,7 +205,7 @@
  <li class="one"><p>Exceptional interpersonal and communication skills (verbal, written, and presentation)</p></li><br>
  <li class="one"><p>Previous product management experience Collaborate with remote teams in multiple time zones</p></li><br>
     <div id="buttons">
-  <a href="mailto:felixhornoiu@gmail.com" class="btn blue">Contact me</a>
+  <a href="mailto:felixhornoiu@gmail.com" class="btn blue">Mail Me</a>
 
 </div>
 
@@ -227,6 +226,17 @@
         })
     //]]>
 </script>
+
+
+     <script type="text/javascript">
+ Skype.ui({
+ "name": "call",
+ "element": "SkypeButton_Call_felixhornoiu_1",
+ "participants": ["felixhornoiu"],
+ "imageColor": "white",
+ "imageSize": 32
+ });
+ </script>
 
 </body>
 </html>

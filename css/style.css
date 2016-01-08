@@ -170,7 +170,12 @@ body {
 .parallax {
 	position: fixed;
     z-index: 3;
+
 	}
+
+.shadow {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+            }
 
 /**
  * Position our elements
@@ -641,8 +646,8 @@ p:last-child {
 }
 
 img {
-	width: 60%;
-	box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+
+
 }
 
 
@@ -985,4 +990,36 @@ a:hover,
 
 #back {
   cursor: pointer;
+}
+
+.back #menu-icon .fa-phone {
+    color: white;
+    padding-left: 13pt;
+    padding-top: 1pt;
+}
+
+.click #menu-icon .fa-phone {
+    color: #AF7AC4;
+    padding-left: 13pt;
+    padding-top: 1pt;
+}
+
+.skype {
+
+    margin-left: -25pt;
+    margin-top: -20pt;
+    margin-bottom: -23pt;
+}
+
+#menu ul {
+        width: 275px;
+    margin-left: -10pt;
+}
+
+a .fa-phone{
+    color: #FFFFFF;
+}
+
+a .fa-envelope {
+    color: #FFFFFF;
 }
