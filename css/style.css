@@ -983,10 +983,11 @@ a .back {
     margin-left: -45pt;
 }
 
-li {
+.drake li {
   list-style: none;
   margin-top: 18px;
   color: #fff;
+        left: 31%;
   font-family: 'Andes', sans-serif;
 
 }
